@@ -102,5 +102,17 @@ namespace TripleDES
                 sw2.Close();
             }
         }
+
+        private void chAutoKey_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chAutoKey.Checked)
+            {
+                RandomNumberGenerator rng = RandomNumberGenerator.Create();
+                byte[] key = new byte[24];
+                rng.GetBytes(key);
+                txtkey.Text = Encoding.ASCII.GetString(key);
+            }
+            else txtkey.Clear();
+        }
     }
 }

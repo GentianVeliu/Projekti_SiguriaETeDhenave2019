@@ -40,6 +40,9 @@
             this.txtFajlli = new System.Windows.Forms.TextBox();
             this.btnZgjedh = new System.Windows.Forms.Button();
             this.btnEnkript = new System.Windows.Forms.Button();
+            this.chAutoKey = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtkey = new System.Windows.Forms.TextBox();
             btnEnkripto = new System.Windows.Forms.Button();
             btnDekripto = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -164,11 +167,44 @@
             this.btnEnkript.UseVisualStyleBackColor = true;
             this.btnEnkript.Click += new System.EventHandler(this.btnEnkript_Click);
             // 
+            // chAutoKey
+            // 
+            this.chAutoKey.AutoSize = true;
+            this.chAutoKey.Location = new System.Drawing.Point(838, 171);
+            this.chAutoKey.Margin = new System.Windows.Forms.Padding(4);
+            this.chAutoKey.Name = "chAutoKey";
+            this.chAutoKey.Size = new System.Drawing.Size(83, 21);
+            this.chAutoKey.TabIndex = 36;
+            this.chAutoKey.Text = "AutoKey";
+            this.chAutoKey.UseVisualStyleBackColor = true;
+            this.chAutoKey.CheckedChanged += new System.EventHandler(this.chAutoKey_CheckedChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(539, 150);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(36, 17);
+            this.label4.TabIndex = 34;
+            this.label4.Text = "Key:";
+            // 
+            // txtkey
+            // 
+            this.txtkey.Location = new System.Drawing.Point(542, 171);
+            this.txtkey.Margin = new System.Windows.Forms.Padding(4);
+            this.txtkey.Name = "txtkey";
+            this.txtkey.Size = new System.Drawing.Size(288, 22);
+            this.txtkey.TabIndex = 35;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1073, 393);
+            this.ClientSize = new System.Drawing.Size(936, 352);
+            this.Controls.Add(this.chAutoKey);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtkey);
             this.Controls.Add(this.btnEnkript);
             this.Controls.Add(this.lblZgjedhFajllin);
             this.Controls.Add(this.txtFajlli);
@@ -200,6 +236,9 @@
         private System.Windows.Forms.TextBox txtFajlli;
         private System.Windows.Forms.Button btnZgjedh;
         private System.Windows.Forms.Button btnEnkript;
+        private System.Windows.Forms.CheckBox chAutoKey;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtkey;
     }
 }
 
