@@ -114,5 +114,29 @@ namespace TripleDES
             }
             else txtkey.Clear();
         }
+
+        private void btnDekript_Click(object sender, EventArgs e)
+        {
+            UTF8Encoding utf8 = new UTF8Encoding();
+            TripleDESCryptoServiceProvider tDES = new TripleDESCryptoServiceProvider();
+
+            tDES.Key = utf8.GetBytes(txtkey.Text);
+            tDES.Mode = CipherMode.CBC;
+            tDES.IV = utf8.GetBytes("06041995");
+            tDES.Padding = PaddingMode.Zeros;
+
+            FileStream fs = new FileStream(txtFajlli.Text, FileMode.Open, FileAccess.Read);
+            CryptoStream csDec = new CryptoStream(fs, tDES.CreateDecryptor(), CryptoStreamMode.Read);
+            StreamReader sr = new StreamReader(csDec);
+            string permbajtja = sr.ReadToEnd();
+            sr.Close();
+            fs.Dispose();
+            fs.Close();
+
+            StreamWriter sw = new StreamWriter(txtFajlli.Text);
+            sw.Write(permbajtja);
+            sw.Flush();
+            sw.Close();
+        }
     }
 }

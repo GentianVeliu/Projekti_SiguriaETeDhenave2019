@@ -28,3 +28,13 @@ C:\Users\User\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\obj\Debu
 C:\Users\User\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\obj\Debug\TripleDES.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\obj\Debug\TripleDES.exe
 C:\Users\User\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\obj\Debug\TripleDES.pdb
+C:\Users\TECHCOM\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\bin\Debug\TripleDES.exe.config
+C:\Users\TECHCOM\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\bin\Debug\TripleDES.exe
+C:\Users\TECHCOM\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\bin\Debug\TripleDES.pdb
+C:\Users\TECHCOM\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\obj\Debug\TripleDES.csprojAssemblyReference.cache
+C:\Users\TECHCOM\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\obj\Debug\TripleDES.Form1.resources
+C:\Users\TECHCOM\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\obj\Debug\TripleDES.Properties.Resources.resources
+C:\Users\TECHCOM\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\obj\Debug\TripleDES.csproj.GenerateResource.cache
+C:\Users\TECHCOM\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\obj\Debug\TripleDES.csproj.CoreCompileInputs.cache
+C:\Users\TECHCOM\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\obj\Debug\TripleDES.exe
+C:\Users\TECHCOM\Documents\GitHub\Projekti_SiguriaETeDhenave2019\TripleDES\obj\Debug\TripleDES.pdb

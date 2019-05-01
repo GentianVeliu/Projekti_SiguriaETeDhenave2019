@@ -43,6 +43,7 @@
             this.chAutoKey = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtkey = new System.Windows.Forms.TextBox();
+            this.btnDekript = new System.Windows.Forms.Button();
             btnEnkripto = new System.Windows.Forms.Button();
             btnDekripto = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -197,11 +198,28 @@
             this.txtkey.Size = new System.Drawing.Size(288, 22);
             this.txtkey.TabIndex = 35;
             // 
+            // btnDekript
+            // 
+            this.btnDekript.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDekript.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDekript.Font = new System.Drawing.Font("Arial", 11.25F);
+            this.btnDekript.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDekript.Location = new System.Drawing.Point(790, 220);
+            this.btnDekript.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDekript.Name = "btnDekript";
+            this.btnDekript.Size = new System.Drawing.Size(131, 42);
+            this.btnDekript.TabIndex = 37;
+            this.btnDekript.Text = "DekriptoFile";
+            this.btnDekript.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDekript.UseVisualStyleBackColor = true;
+            this.btnDekript.Click += new System.EventHandler(this.btnDekript_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(936, 352);
+            this.Controls.Add(this.btnDekript);
             this.Controls.Add(this.chAutoKey);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtkey);
@@ -239,6 +257,7 @@
         private System.Windows.Forms.CheckBox chAutoKey;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtkey;
+        private System.Windows.Forms.Button btnDekript;
     }
 }
 
